@@ -17,8 +17,16 @@ Successfully installed Adafruit-Blinka-5.8.1 Adafruit-PlatformDetect-2.22.2 Adaf
 
 https://learn.adafruit.com/adafruit-neopixel-uberguide/python-circuitpython
 
-sudo mkdir Programs
-cd Programs
-sudo vi neopixels.py
+pi@raspi400:~/ $ sudo mkdir Programs
+pi@raspi400:~/ $ cd Programs
+pi@raspi400:~/Programs $ sudo vi neopixels.py
 
-sudo python3 neopixels.py
+pi@raspi400:~/Programs $ sudo python3 neopixels.py
+
+pi@raspi400:~/Programs $ python key_char.py 
+Red!
+Green!
+Blue!
+Zoom!
+Program Ended
+pi@raspi400:~/Programs $ 
