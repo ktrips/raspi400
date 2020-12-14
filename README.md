@@ -1,8 +1,9 @@
 # Raspberry Pi 400
 ## How to use and customize raspi400
 
-
-```pi@raspi400:~ $  sudo pip3 install adafruit-circuitpython-neopixel
+Install NeoPixel libraries:
+```
+pi@raspi400:~ $  sudo pip3 install adafruit-circuitpython-neopixel
 
 Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
 
@@ -22,7 +23,10 @@ Successfully installed Adafruit-Blinka-5.8.1 Adafruit-PlatformDetect-2.22.2 Adaf
 
 Please refer Adafruit site - https://learn.adafruit.com/adafruit-neopixel-uberguide/python-circuitpython
 
-```pi@raspi400:~/ $ sudo mkdir Programs
+Use sample codes in the site and create key touch programs:
+
+```
+pi@raspi400:~/ $ sudo mkdir Programs
 pi@raspi400:~/ $ cd Programs
 pi@raspi400:~/Programs $ sudo vi neopixels.py
 
