@@ -30,9 +30,9 @@ pi@raspi400:~/ $ sudo mkdir Programs
 pi@raspi400:~/ $ cd Programs
 pi@raspi400:~/Programs $ sudo vi neopixels.py
 
-pi@raspi400:~/Programs $ sudo python3 neopixel_simpletest.py
+pi@raspi400:~/Programs $ sudo wget https://learn.adafruit.com/pages/2281/elements/3005652/downloadv -O neopixel_simpletest.py
 
-pi@raspi400:~/Programs $ sudo python3 neopixel_keys.py 
+pi@raspi400:~/Programs $ sudo git clone python3 neopixel_keys.py 
 Red!
 Green!
 Blue!
