@@ -48,7 +48,7 @@ def detect_faces(path):
         print('surprise: {}'.format(likelihood_name[face.surprise_likelihood]))
         
         if likelihood_name[face.joy_likelihood] in ('UNLIKELY', 'VERY_UNLIKELY'):
-            os.system('aplay anger.wav')
+            os.system('aplay rest.wav')
             
         vertices = (['({},{})'.format(vertex.x, vertex.y)
                     for vertex in face.bounding_poly.vertices])
